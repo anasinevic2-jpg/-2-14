@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <clocale>
 using namespace std;
-
 int main() {
     setlocale(LC_ALL, "Russian");
     double t;
@@ -12,7 +11,6 @@ int main() {
     cin >> vl;
     cout << "Введите признак осадков (0/1): ";
     cin >> os;
-
     if (vl < 0 || vl > 100) {
         cout << "Некорректная влажность" << endl;
     }
